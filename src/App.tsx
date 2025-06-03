@@ -32,12 +32,12 @@ function App() {
               <div className="flex items-center gap-3 text-gray-600">
                 <Phone className="w-5 h-5" />
                 <a 
-                  href="https://wa.me/541146411406" 
+                  href="https://wa.me/5493624565164" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-gray-900 transition-colors"
                 >
-                  +54 11 4641-1406
+                  +54 9 362 4565164
                 </a>
               </div>
 
