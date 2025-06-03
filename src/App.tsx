@@ -101,7 +101,7 @@ function App() {
         {/* Google Maps Review Link */}
         <div className="mt-8 text-center">
           <a 
-            href="https://g.page/r/CejCcOh3dwnPEBM/review" 
+            href="https://g.page/r/Cc4oC9cExvXCEBM/review" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
