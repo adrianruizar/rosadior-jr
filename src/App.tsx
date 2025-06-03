@@ -115,7 +115,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-50 py-6">
         <div className="max-w-4xl mx-auto px-4 text-center text-gray-600">
-          <p>© 2024 Rosa Dior Jr. Todos los derechos reservados.</p>
+          <p>© 2025 ROSADIOR JR - Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>
