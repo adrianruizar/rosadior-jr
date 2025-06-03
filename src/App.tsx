@@ -48,7 +48,7 @@ function App() {
 
               <div className="flex items-center gap-3 text-gray-600">
                 <Mail className="w-5 h-5" />
-                <p>contacto@rosadiorjr.com</p>
+                <p>rosadiorjunior@gmail.com</p>
               </div>
 
               <div className="flex items-center gap-3 text-gray-600">
