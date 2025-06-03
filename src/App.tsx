@@ -1,9 +1,90 @@
-import React from 'react'
+import { Facebook, Instagram, MapPin, Phone, Clock, Mail } from 'lucide-react'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <p>Start prompting (or editing) to see magic happen :)</p>
+    <div className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <div 
+        className="h-[60vh] bg-cover bg-center relative"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=2000")'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h1 className="text-5xl font-bold text-white tracking-wider">ROSA DIOR JR</h1>
+        </div>
+      </div>
+
+      {/* Contact Info */}
+      <div className="max-w-4xl mx-auto py-16 px-4">
+        <div className="grid md:grid-cols-2 gap-12">
+          <div className="space-y-8">
+            <h2 className="text-3xl font-semibold text-gray-800">Visítanos</h2>
+            
+            <div className="space-y-4">
+              <div className="flex items-center gap-3 text-gray-600">
+                <MapPin className="w-5 h-5" />
+                <p>Av. Rivadavia 11444, Buenos Aires, Argentina</p>
+              </div>
+              
+              <div className="flex items-center gap-3 text-gray-600">
+                <Phone className="w-5 h-5" />
+                <p>+54 11 4641-1406</p>
+              </div>
+
+              <div className="flex items-center gap-3 text-gray-600">
+                <Clock className="w-5 h-5" />
+                <p>Lunes a Sábado: 9:30 - 20:00</p>
+              </div>
+
+              <div className="flex items-center gap-3 text-gray-600">
+                <Mail className="w-5 h-5" />
+                <p>contacto@rosadiorjr.com</p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <a 
+                href="https://facebook.com/rosadiorjr" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              >
+                <Facebook className="w-6 h-6 text-gray-700" />
+              </a>
+              <a 
+                href="https://instagram.com/rosadiorjr" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              >
+                <Instagram className="w-6 h-6 text-gray-700" />
+              </a>
+            </div>
+          </div>
+
+          <div className="h-[400px]">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.593157562454!2d-58.50127492427471!3d-34.63669465930489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9983ba702c1%3A0x7fc89e08e770c9e8!2sRosa%20Dior%20Jr!5e0!3m2!1sen!2sus!4v1709764429544!5m2!1sen!2sus"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-50 py-6">
+        <div className="max-w-4xl mx-auto px-4 text-center text-gray-600">
+          <p>© 2024 Rosa Dior Jr. Todos los derechos reservados.</p>
+        </div>
+      </footer>
     </div>
   )
 }
