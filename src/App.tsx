@@ -26,7 +26,7 @@ function App() {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-gray-600">
                 <MapPin className="w-5 h-5" />
-                <p>San Martín 331, Quitilipi (3530), Chaco (Arg).</p>
+                <p>San Martín 331, Quitilipi (3530), Chaco - Argentina.</p>
               </div>
               
               <div className="flex items-center gap-3 text-gray-600">
