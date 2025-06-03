@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MapPin, Phone, Clock, Mail } from 'lucide-react'
+import { Facebook, Instagram, MapPin, Phone, Clock, Mail, ShoppingCart, Star } from 'lucide-react'
 
 function App() {
   return (
@@ -7,12 +7,13 @@ function App() {
       <div 
         className="h-[60vh] bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=2000")'
+          backgroundImage: 'url("https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg")'
         }}
       >
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-5xl font-bold text-white tracking-wider">ROSA DIOR JR</h1>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+          <h1 className="text-5xl font-bold text-white tracking-wider mb-4">ROSA DIOR JR</h1>
+          <p className="text-xl text-white tracking-wide">Otoño / Invierno 2025</p>
         </div>
       </div>
 
@@ -30,7 +31,14 @@ function App() {
               
               <div className="flex items-center gap-3 text-gray-600">
                 <Phone className="w-5 h-5" />
-                <p>+54 11 4641-1406</p>
+                <a 
+                  href="https://wa.me/541146411406" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-900 transition-colors"
+                >
+                  +54 11 4641-1406
+                </a>
               </div>
 
               <div className="flex items-center gap-3 text-gray-600">
@@ -41,6 +49,18 @@ function App() {
               <div className="flex items-center gap-3 text-gray-600">
                 <Mail className="w-5 h-5" />
                 <p>contacto@rosadiorjr.com</p>
+              </div>
+
+              <div className="flex items-center gap-3 text-gray-600">
+                <ShoppingCart className="w-5 h-5" />
+                <a 
+                  href="https://tienda.rosadiorjr.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-900 transition-colors"
+                >
+                  Visita nuestra tienda online
+                </a>
               </div>
             </div>
 
@@ -76,6 +96,19 @@ function App() {
               className="rounded-lg shadow-lg"
             />
           </div>
+        </div>
+
+        {/* Google Maps Review Link */}
+        <div className="mt-8 text-center">
+          <a 
+            href="https://g.page/r/CejCcOh3dwnPEBM/review" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            <Star className="w-5 h-5" />
+            <span>¿Te gustó nuestra atención? ¡Déjanos tu opinión en Google!</span>
+          </a>
         </div>
       </div>
 
