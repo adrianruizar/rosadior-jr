@@ -107,7 +107,7 @@ function App() {
             className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
           >
             <Star className="w-5 h-5" />
-            <span>¿Te gustó nuestra atención? ¡Déjanos tu opinión en Google!</span>
+            <span>¿Te gustó nuestro local? ¡Déjanos tu opinión!</span>
           </a>
         </div>
       </div>
