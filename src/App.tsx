@@ -59,7 +59,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="hover:text-gray-900 transition-colors"
                 >
-                  Visita nuestra tienda online
+                  Muy pronto nuestra tienda online
                 </a>
               </div>
             </div>
