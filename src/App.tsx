@@ -66,7 +66,7 @@ function App() {
 
             <div className="flex gap-4">
               <a 
-                href="https://facebook.com/rosadiorjr" 
+                href="https://www.facebook.com/rosadiorjr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
@@ -74,7 +74,7 @@ function App() {
                 <Facebook className="w-6 h-6 text-gray-700" />
               </a>
               <a 
-                href="https://instagram.com/rosadiorjr" 
+                href="https://www.instagram.com/rosadiorjr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
