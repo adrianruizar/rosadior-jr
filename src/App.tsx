@@ -21,7 +21,7 @@ function App() {
       <div className="max-w-4xl mx-auto py-16 px-4">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h2 className="text-3xl font-semibold text-gray-800">Visítanos</h2>
+            <h2 className="text-3xl font-semibold text-gray-800">Visitanos</h2>
             
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-gray-600">
