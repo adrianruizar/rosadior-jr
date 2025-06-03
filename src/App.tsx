@@ -12,7 +12,7 @@ function App() {
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-          <h1 className="text-5xl font-bold text-white tracking-wider mb-4">ROSA DIOR JR</h1>
+          <h1 className="text-5xl font-bold text-white tracking-wider mb-4">ROSADIOR JR</h1>
           <p className="text-xl text-white tracking-wide">Otoño / Invierno 2025</p>
         </div>
       </div>
@@ -26,7 +26,7 @@ function App() {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-gray-600">
                 <MapPin className="w-5 h-5" />
-                <p>Av. Rivadavia 11444, Buenos Aires, Argentina</p>
+                <p>San Martín 331, Quitilipi (3530), Chaco (Arg).</p>
               </div>
               
               <div className="flex items-center gap-3 text-gray-600">
