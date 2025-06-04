@@ -7,7 +7,7 @@ function App() {
       <div 
         className="h-[60vh] bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg")'
+          backgroundImage: 'url("https://adrianruiz.ar/rosadiorjr/banner-principal.png")'
         }}
       >
         <div className="absolute inset-0 bg-black/40" />
