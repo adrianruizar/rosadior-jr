@@ -86,7 +86,7 @@ function App() {
 
           <div className="h-[400px]">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.593157562454!2d-58.50127492427471!3d-34.63669465930489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9983ba702c1%3A0x7fc89e08e770c9e8!2sRosa%20Dior%20Jr!5e0!3m2!1sen!2sus!4v1709764429544!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.53231735762543!2d-60.217854263719694!3d-26.872266850676766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9446c949db0eb26d%3A0xc2f5c604d70b28ce!2sROSADIOR%20JR!5e0!3m2!1ses!2sar!4v1749038258704!5m2!1ses!2sar"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
